@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/consultationFragment">
+    <fragment
+        android:id="@+id/consultationFragment"
+        android:name="com.example.healthy.screens.ConsultationFragment"
+        android:label="ConsultationFragment">
+        <action
+            android:id="@+id/action_consultationFragment_to_detectedFragment3"
+            app:destination="@id/detectedFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/detectedFragment"
+        android:name="com.example.healthy.screens.DetectedFragment"
+        android:label="DetectedFragment" />
+    <fragment
+        android:id="@+id/insuranceCompaniesFragment"
+        android:name="com.example.healthy.screens.InsuranceCompaniesFragment"
+        android:label="InsuranceCompaniesFragment" />
+
+</navigation>

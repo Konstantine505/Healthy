@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/consultationFragment"
+        android:icon="@drawable/ic_health"
+        android:title="Counsultation" />
+    <item
+        android:id="@+id/insuranceCompaniesFragment"
+        android:icon="@drawable/ic_insurance"
+        android:title="Insurances" />
+</menu>

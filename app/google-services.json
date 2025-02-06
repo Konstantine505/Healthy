@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "74614144830",
+    "project_id": "healthy-4111c",
+    "storage_bucket": "healthy-4111c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74614144830:android:64dfef4d463dce305d366f",
+        "android_client_info": {
+          "package_name": "com.example.healthy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG4ACuyPuXHeZHPiZ8SPx16s0VCy4cbr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
